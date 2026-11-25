@@ -1,0 +1,38 @@
+# --- system / python ---
+.DS_Store
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# --- data (KEK / Belle II, not public) ---
+Dataset/
+*.csv
+*.parquet
+*.pkl
+*.h5
+
+# --- generated outputs ---
+Output_csv_file/
+Tablle_Output/
+sbl_iforest_*/
+figures_iforest/
+Abbildung/
+/*.png
+
+# --- literature, office files, personal notes ---
+Referenz/
+*.docx
+*.pptx
+~$*
+Not.md
+plan.md
+time.md
+to_do.md
+Weekly_to_do.md
+
+# --- thesis (LaTeX and PDF) is not part of the repository ---
+MasterArbeit/
+
+# --- notebooks: only the clean thesis notebook is tracked ---
+*.ipynb
+!00_main_sbl_analysis.ipynb
